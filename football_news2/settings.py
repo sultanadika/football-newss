@@ -55,6 +55,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://sultanadika-shidqi-footballnewss1.pbp.cs.ui.ac.id"
+]
+
+
 ROOT_URLCONF = 'football_news2.urls'
 
 TEMPLATES = [
